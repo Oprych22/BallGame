@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Thing3D" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABAAAAAAAAAAAAAAABAAAhAABAAAAACAA=</HashCode>
+      <FileName>Thing3D\Thing3D.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mesh" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CDXUTSDKMesh" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACsFcBDzCcFS0kZgOASAEoguiBByUgPCTYAAEgGhDI=</HashCode>
+      <FileName>DXUT\Optional\SDKmesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EffectForAbstractThing3D" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAgCAAAAAAAAAGAEQAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Thing3D\EffectForAbstractThing3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thing3DAbstract" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xAFwFBwKAAgAgARgAAAAQRQggEAEAYYmCAFmAQAQIAQ=</HashCode>
+      <FileName>Thing3D\Thing3DAbstract.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pThing3DEffect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FlatThing3D" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAAAAAQAAAAABAAAAAAIAAAAIgAABgBAEAAAA=</HashCode>
+      <FileName>Thing3D\FlatThing3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAACAAARA=</HashCode>
+      <FileName>Tile\Tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thing3DObj" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABAAABEAAAAAAAAAAAAAAgAABAAgAAQAA=</HashCode>
+      <FileName>Thing3D\Thing3DObj.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="objMesh" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CMeshLoader10" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>INgAAEAABAEBAQAAAAgUAABAkABAAUCAAAAEACBAQEA=</HashCode>
+      <FileName>OBJLoader\MeshLoaderObj10.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
